@@ -44,3 +44,4 @@ echo 服务开机启动完成
 echo 查看服务开启状态
 sudo systemctl status tcpdumpTrafficCapture.service
 cd $HOME
+echo 部署完成，请按Q键退出。

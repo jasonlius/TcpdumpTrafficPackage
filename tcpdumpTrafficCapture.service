@@ -4,7 +4,7 @@ Before=network-online.target
 Before=time-sync.target  
 [Service] 
 Type=forking  
-ExecStart=$HOME/TcpdumpTrafficPackage/tcpdumpTrafficCapture-server
+ExecStart=/etc/init.d/tcpdumpTrafficCapture-server
 ExecReload=/bin/kill -SIGHUP $MAINPID 
 [Install]  
 WantedBy=multi-user.target 

@@ -1,0 +1,2 @@
+#!/bin/bash
+nohup /home/deployer/TcpdumpTrafficPackage/catchTraffic.sh  2>&1 > /dev/null &

@@ -1,9 +1,9 @@
 #!/bin/bash
 net_po=any
 #pcap saving path
-save_path=~/TcpdumpTrafficPackage
+save_path=$HOME/TcpdumpTrafficPackage
 #pid
-pid_path=~/TcpdumpTrafficPackage
+pid_path=$HOME/TcpdumpTrafficPackage
 #saving format
 format=%Y_%m_%d-%H_%M_%S
 # time for tcpdump (-G)
